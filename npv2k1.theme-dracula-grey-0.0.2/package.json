@@ -1,0 +1,61 @@
+{
+	"name": "theme-dracula-grey",
+	"version": "0.0.2",
+	"displayName": "Dracula Grey",
+	"description": "Dracula Grey Theme",
+	"publisher": "npv2k1",
+	"license": "MIT",
+	"scripts": {
+		"package": "vsce package"
+	},
+	"maintainers": [
+		"Nguyen Pham <npv2k1@gmail.com>"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/npv2k1/dracula-gray.git"
+	},
+	"bugs": {
+		"url": "https://github.com/npv2k1/dracula-gray/issues"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dracula",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#3c4557",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dracula Grey",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dracula-grey.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"vsce": "^2.7.0"
+	},
+	"__metadata": {
+		"id": "6f855fdc-e5da-466b-bfaa-6b3a6ddf6c52",
+		"publisherId": "d7e797f1-c43f-4202-8dcd-58073084bfe3",
+		"publisherDisplayName": "npv2k1",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1672074051091,
+		"preRelease": false
+	}
+}
